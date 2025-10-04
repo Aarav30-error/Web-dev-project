@@ -1,0 +1,238 @@
+body {
+  background-color: black;
+  background-image: url("Gemini_Generated_Image_hdha28hdha28hdha.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+html {
+  /* Smooth scroll for the whole page */
+  scroll-behavior: smooth;
+}
+
+nav {
+  color: rgb(255, 255, 255, 0.881);
+  font-size: 22px;
+  height: 100px;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: static;
+}
+
+a {
+  color: rgba(255, 253, 253, 0.881);
+  text-decoration: none;
+  will-change: color, text-decoration;
+}
+
+.home {
+  align-content: flex-start;
+  margin-top: 35px;
+  transition: 0.5s ease;
+  position:relative;
+}
+
+
+
+.about_me {
+  margin-top: 35px;
+  transition: 0.5s ease;
+}
+
+.contact {
+  margin-top: 35px;
+  transition: 0.5s ease;
+}
+
+.linkedin {
+  margin-top: 35px;
+  transition: 0.8s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: rgb(155, 153, 153);
+  text-underline-offset: 6px;
+  transition: color 0.5s ease, text-decoration 0.5s ease;
+}
+
+
+main {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: space-around;
+  position: relative;
+}
+
+.intro-text {
+  opacity: 0.8;
+  font-size: 30px;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  will-change: transform, opacity;
+}
+
+.intro-text:hover {
+  transform: translateY(-10px);
+}
+
+.my-picture {
+  height: 500px;
+  width: 450px;
+  border-radius: 150px;
+  will-change: transform;
+}
+
+hr {
+  position: relative;
+  top: 120px;
+  width: 95%;
+  height: 2px;
+  background-color: rgb(211, 210, 210);
+  border: none;
+}
+
+section {
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  top: 50px;
+  height: 700px;
+  background-color: rgb(168, 166, 166);
+  width: 95%;
+  border-radius: 25px;
+}
+
+.info{
+  font-size:35px;
+  position: relative;
+  left: 50px;
+  top: 50px;
+  font-weight: bolder;
+
+}
+
+.icons {
+  display: flex;
+  align-items: flex-end;
+  height: 700px;
+}
+
+#button {
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+.github, .instagram, .linkedin {
+  height: 100px;
+  width: 100px;
+}
+
+#button:hover {
+  transform: translateY(-10px);
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  position: relative;
+  height: 510px;
+  width: 270px;
+  margin: 5px;
+  border-radius: 30px;
+  background-color: black;
+  opacity: 0.8;
+  transition: opacity 0.5s ease;
+  will-change: opacity;
+  color: white;
+}
+
+.box1 {
+  top: 30px;
+}
+
+
+.box2 {
+  top: 170px;
+
+}
+
+
+.box3 {
+  top: 30px;
+}
+
+.box4 {
+  top: 170px;
+}
+
+.box5 {
+  top: 30px;
+}
+
+.box:hover {
+  opacity: 0.5;
+}
+
+.third {
+  position: relative;
+}
+
+.border {
+  position: absolute;
+  height: inherit;
+  width: 100%;
+  border: 3px solid white;
+  z-index: 1;
+  animation: circle 7s infinite ease-in-out;
+  will-change: transform;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+body {
+  animation: fadeInPage 1.5s ease forwards;
+  /* Initially invisible */
+  opacity: 0;
+}
+
+@keyframes fadeInPage {
+  to {
+    opacity: 1;
+  }
+}
+
+.third{
+  position:relative;
+  left:20px;
+  top:40px;
+}
